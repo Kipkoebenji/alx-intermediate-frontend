@@ -1,1 +1,113 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A blog post about semantic HTML and accessibility practises">
+    <meta name="keywords" content="HTML, Semantic, Accessibility, Blog,SEO">
+    <meta name="author" content="Benjamin Kipkoech">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Semantic Html Blog Post</title>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+           <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+           </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <article>
+            <h2>understanding Semantic Html</h2>
+            <p>Published on <time datetime=”2025-05-15”> September 10</p>
+
+            <section>
+                <h3>introduction</h3>
+                <p>
+                    Semantic HTML is a way of writing HTML that emphasizes the meaning of 
+                    the content rather than just its appearance. This approach not only improves 
+                    the accessibility of web pages but also enhances their SEO performance. 
+                    By using semantic elements, developers can create more meaningful and structured
+                     documents that are easier for both users and search engines to understand.
+                </p>
+            </section>
+
+            <section>
+                <h3>Main Content</h3>
+
+                <p>
+                    ### Using elements like 
+
+                    <code>&lt;section&gt;</code>
+                    <code>&lt;article&gt;</code> 
+                    <code>&lt;header&gt;</code>
+                </p>
+
+                <figure>
+                    <img src="https://example.com/image.jpg" alt=" example">
+                    <figcaption>An illustration of semantic HTML elements</figcaption>
+                </figure>
+
+            </section>
+
+            <section>
+                <h3>Conclusion</h3>
+
+                <p>By adopting semantic HTML, you enhance your site's accessibility, 
+                    improve SEO, and make the content easier to navigate
+
+                </p>
+            </section>
+
+            <section>
+                <form action=”#”
+
+                method=”POST”
+                
+                aria-labelledby=”form-title”
+                
+                role=”form”>
+
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" aria-required="true" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-required="true" required>
+                </div>
+
+                <div>
+                    <button type="submit" aria-label="Submit the form"></button>
+                </div>
+
+                <div aria-live="polite" role="alert">
+                    
+                    
+                </div>
+
+            </form>
+            </section>
+
+            <footer>
+                <p> written by: Benjamin Kipkoech</p>
+                <p>Published on: <time datetime="2025-05-15">September 10</time></p>
+                <p>Tags: HTML, Semantic, Accessibility, SEO</p>
+            </footer>
+
+        </article>
+    </main>
+
+    <footer>
+        &copy; 
+    </footer>
+</body>
+</html>
