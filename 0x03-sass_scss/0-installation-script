@@ -1,0 +1,17 @@
+# How to Install Sass
+
+This document outlines the steps taken to install Sass using npm.
+
+## 1. Install Node.js and npm
+
+- Go to [https://nodejs.org/](https://nodejs.org/)
+- Download and install the **LTS** version of Node.js (it includes npm)
+
+## 2. Initialize a Project (Optional)
+
+Open your terminal or command prompt and run:
+
+```bash
+cd your-project-folder
+npm init -y
+#3. Install Sass Using npm
